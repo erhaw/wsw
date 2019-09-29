@@ -1,0 +1,5 @@
+com\personal\cloud\demo\util\MySerializerUtils.class
+com\personal\cloud\demo\dao\DemoEntityDto.class
+com\personal\cloud\demo\support\RestResultDto.class
+com\personal\cloud\demo\enums\TypeEnum.class
+com\personal\cloud\demo\tool\RestResultUtil.class

@@ -1,0 +1,16 @@
+eurekaServer:
+  servers: http://192.168.1.248:8761/eureka/
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://cloud_personal:111111@localhost:27017/personal_demo?maxPoolSize=256
+
+redisServer:
+  database: 0
+  ip: 192.168.1.248
+  port: 6379
+  password: vortex
+
+gatewayServer: http://192.168.1.207:18082
+

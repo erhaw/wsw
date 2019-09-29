@@ -1,0 +1,16 @@
+eurekaServer:
+  servers: http://10.117.49.27:12022/eureka/
+
+mysqlServer:
+  ip: rm-bp121z4o908ct574e.mysql.rds.aliyuncs.com
+  port: 3306
+  username: vortex
+  password: Vortex2017
+
+redisServer:
+  database: 0
+  ip: r-bp1839230b172934.redis.rds.aliyuncs.com
+  port: 6379
+  password: Vortex2017
+
+gatewayServer: http://120.26.218.105:12020

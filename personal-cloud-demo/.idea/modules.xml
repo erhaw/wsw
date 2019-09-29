@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo.iml" filepath="$PROJECT_DIR$/personal-cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-dao/personal-cloud-demo-dao.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-dao/personal-cloud-demo-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-domain/personal-cloud-demo-domain.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-domain/personal-cloud-demo-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-scheduler/personal-cloud-demo-scheduler.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-scheduler/personal-cloud-demo-scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-service/personal-cloud-demo-service.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-service/personal-cloud-demo-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-support/personal-cloud-demo-support.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-support/personal-cloud-demo-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personal-cloud-demo-webboot/personal-cloud-demo-webboot.iml" filepath="$PROJECT_DIR$/personal-cloud-demo-webboot/personal-cloud-demo-webboot.iml" />
+    </modules>
+  </component>
+</project>

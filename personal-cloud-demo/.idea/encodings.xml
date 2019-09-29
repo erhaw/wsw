@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-scheduler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-support" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/personal-cloud-demo-webboot" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+com\personal\cloud\demo\service\demo\IMongodbDemoService.class
+com\personal\cloud\demo\service\demo\IDemoCallableService.class
+com\personal\cloud\demo\service\demo\impl\MongodbDemoServiceImpl.class
+com\personal\cloud\demo\service\demo\impl\DemoCallableServiceImpl.class

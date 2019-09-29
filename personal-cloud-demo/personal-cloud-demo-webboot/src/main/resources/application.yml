@@ -1,0 +1,35 @@
+spring:
+  profiles:
+    active: dev
+    include:
+    - hw
+    - custom
+  cache:
+    type: ehcache
+  application:
+    name: personal-demo-webboot
+
+#容器
+server:
+  port: 18001
+  context-path: /cloud/demo/
+  tomcat:
+    #tomcat最大线程数，默认为200
+    max-threads: 500
+    max-http-header-size: 20480
+  undertow:
+    #cpu数量，最小为2 设置IO线程数, 它主要执行非阻塞的任务,它们会负责多个连接, 默认设置每个CPU核心一个线程
+    io-threads: 8
+    #io-threads*8 阻塞任务线程池, 当执行类似servlet请求阻塞操作, undertow会从这个线程池中取得线程,它的值设置取决于系统的负载
+    worker-threads: 500
+    max-http-post-size: 20480
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain,application/javascript,text/css
+    min-response-size:  100
+
+#日志
+logging.config: classpath:logback-spring.xml
+
+
+
